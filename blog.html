@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width",initial-scale="1.0">
+    <title>Abroad Education website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<section class="sub-header"> 
+    <nav>
+        <a href="index.html"><img src="images/logo5.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-square-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Different ways  to study abroad</h1>
+
+</section>
+<!--Blog post content-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>5 Ways to study abroad</h2>
+            <p>Thanks to a wealth of information available on the Internet and social media’s penchant for inspiring #travelgoals, college and high school students are yearning to study abroad more than ever. With the abundance of resources, however, comes information-overload. Lucky for you, there isn’t just one path to studying abroad.
+
+                Maybe your school is known for their great exchange program. Maybe you met someone who had a blast with a company that specializes in immersive experiences. Or maybe someone you follow on Instagram shared a motivational account of their study abroad experience and you just know you’re destined to try it out for yourself.
+                
+                At One Mile At A Time, we have sifted through the digital noise and reviewed some of the most popular ways to study abroad -- and how to get started. Now you’ll be less worried about the “How?” and more excited about the “When!?” Let's dive in: here are 10 creative ways to study abroad and experience a new destination.</p>
+            <br>
+            <p>1. Book a study abroad program through your university</p><br>
+            <p>2. Find study abroad programs through a third-party provider</p>
+            <br>
+            <p>3. Enroll directly with a university overseas</p><br>
+            <p>4. Take a global independent study</p>
+            <br>
+            <p>5. Supplement your learning with field research abroad</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter your Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="home-button red-btn">POST COMMENT</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            
+            </div>
+            
+
+        </div>
+        
+    </div>
+
+    
+    
+  
+</section>
+
+
+
+
+<!--Footer-->
+<section class="footer">
+   
+    <p>We are fast growing online platform that brings students together for better future</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Preethi</p>
+</section>
+
+
+
+
+
+
+
+
+
+<!--Java script for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
